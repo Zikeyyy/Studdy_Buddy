@@ -35,3 +35,5 @@ class Message(models.Model):
     
     class Meta:
         ordering = ['-updated', '-created']
+
+        
